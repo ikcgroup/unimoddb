@@ -12,7 +12,7 @@ with open(readme, encoding='utf-8') as fh:
 
 setup(
     name='unimoddb',
-    version='0.1.2',
+    version='0.1.3',
     packages=[
         'unimoddb',
     ],
@@ -46,5 +46,4 @@ setup(
             "unimod.xml",
         ]
     },
-    include_package_data=True,
 )
