@@ -20,6 +20,9 @@ setup(
     description=(
         'A library for SQLite access to the Unimod modification database'
     ),
+    install_requires=[
+        'lxml',
+    ],
     author='Daniel Spencer',
     author_email='danielspencer305@hotmail.co.uk',
     url='https://github.com/ikcgroup/unimoddb',
